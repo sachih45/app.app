@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "gunda",
+      "email": "gunda@gmail.com",
+      "password": "gunda123",
+      "phone": "9876543219",
+      "dob": "01/01/2001",
+      "pic": "",
+      "gender": "",
+      "active_bookings": [
+        {
+          "ticket_no": 123,
+          "busname": "airavatha",
+          "busnumber": "KA014567",
+          "distance": "1000kms",
+          "seatno": [
+            "E5"
+          ],
+          "seats": "1",
+          "boarding": "bengaluru",
+          "departure": "Mumbai",
+          "boarding_time": "10:00 am",
+          "departure_time": "10:00 pm",
+          "journey_time": "10 hrs",
+          "price": "1000",
+          "date": "20/7/2023"
+        },
+        {
+          "busname": "Airavatha",
+          "busnumber": "KA01E342",
+          "seats": 1,
+          "from": "Bengaluru",
+          "to": "Mandya",
+          "start": "6:00am",
+          "end": "9:30am",
+          "journey_time": "3.5",
+          "price": 200,
+          "date": ""
+        }
+      ],
+      "previous_bookings": []
+    },
+    {
+      "username": "sach",
+      "email": "sach@gmail.com",
+      "password": "sach123",
+      "phone": "7892349028",
+      "dob": "1996-11-23",
+      "id": 2
+    },
+    {
+      "username": "sachin",
+      "email": "sach@gmail.com",
+      "password": "sach123",
+      "phone": "7892349028",
+      "dob": "1996-11-23",
+      "id": 3
+    },
+    {
+      "username": "sachin",
+      "email": "sach@gmail.com",
+      "password": "sach123",
+      "phone": "7892349028",
+      "dob": "1996-11-23",
+      "id": 4
+    }
+  ]
+}

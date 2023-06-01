@@ -1,0 +1,491 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.603);
+}
+.signup-cont{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px salmon;
+}
+.signup-box{
+  background-color:rgba(222, 135, 186, 0.096);
+  width: 400px;
+  height: auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 45px rgb(155, 238, 144);
+
+}
+
+.signup-box form{
+  display: inline-block;
+ 
+}
+.signup-box form input{
+  display: block;
+  width: 250px;
+  height: 30px;
+ margin-top: 10px;
+ position: relative;
+ left: 35px;
+ border-radius: 8px;
+ box-shadow: 0px 0px 10px red;
+ }
+
+ .signup-box button{
+  position: relative;
+  top: 65px;
+  right: 135px;
+  width: 80px;
+  height:30px;
+  border-radius: 8px;
+}
+.signup-box button :hover{
+  background-color: aquamarine;
+}
+.profile nav{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 90%;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.profile h3{
+  color: azure;
+}
+
+/*------------------------------------------------
+
+/* -------------------------------------NAVBAR-------------------------- */
+
+nav{
+  background-color: white;
+  height: 70px;
+  width: 100vw;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+.logo a{
+  font-size: 20px;
+  font-weight: 800;
+  color: crimson;
+  letter-spacing: 2px;
+}
+.tickets a{
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border: solid 1px black;
+  border-radius: 4px;
+}
+.tickets a:hover{
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+
+.profile a{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  border-radius: 4px;
+}
+.profile a:hover{
+  text-decoration: underline;
+}
+
+.profile button{
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 30px;
+  margin: 0px 15px;
+  border: solid 1px black;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.profile button:hover{
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+/* -------------------------------------
+
+/* -------------------------------------home -------------------------- */
+.homepage{
+  width: 100vw;
+}
+.dashboard{
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.image{
+  margin: 50px;
+}
+.img1{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgb(165, 165, 165);
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+.img1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.img1 img:hover{
+  transform: scale(1.1);
+}
+.img2{
+  display: inline-block;
+  width: 160px;
+  height: 200px;
+  border-radius: 12px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgb(165, 165, 165);
+  position: relative;
+  right: 60px;
+  z-index: 10;
+  overflow: hidden;
+}
+.img2 img{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+transition: 0.3s;
+}
+.img2 img:hover{
+  transform: scale(1.1);
+
+}
+.textheader{
+  width: 500px;
+}
+.textheader span{
+  color: rgb(0, 119, 255);
+  font-size: 17px;
+  font-weight: 500;
+}
+.textheader h1{
+  width: 400px;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px 0px;
+  text-shadow: 0px 0px 3px red;
+}
+.textheader p{
+  width: 400px;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.textheader div{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textheader div button{
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 10px 25px;
+  border: rgb(0, 119, 255) solid 1px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.textheader div button:hover{
+  background-color: rgb(249, 249, 249);
+  color: rgb(0, 119, 255);
+}
+
+.textheader div img{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 1px black;
+}
+.textheader div a{
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card-box{
+  margin: 120px 0px;
+  padding: 10px 100px;
+}
+.card-box h1{
+  margin: 25px 0px;
+  text-shadow: 0px 0px 5px wheat;
+}
+.card-box p{
+  margin: 25px 0px;
+  width: 700px;
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
+.cards div{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cards div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.4s; 
+}
+.cards div img:hover{
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+PROFILE -------------------------- */
+
+.profilepage{
+  width: 100vw;
+}
+.user-details{
+  margin: 50px 100px;
+}
+.profilepage button{
+  margin: 20px;
+  position: relative;
+  left: 380px;
+  background-color: rgba(0, 255, 255, 0.555);
+  border-radius: 5px;
+  border: 50px;
+  font-size: larger;
+  padding: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+.profilepage button :hover{
+  background-color: brown;
+}
+
+
+/* ------------------------------------- BOOK -------------------------- */
+
+.inputs{
+  padding: 0px 100px;
+}
+.inputs h1{
+  margin: 20px 0px;
+}
+.inputs form{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputs form input{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 4px;
+  margin: 5px;
+  padding-left:10px ;
+  padding-right:10px ;
+}
+.inputs form input[type="submit"]{
+  display: block;
+  width: 130px;
+  background-color: crimson;
+  border: solid 1px crimson;
+  color: white;
+  font-weight: 700;
+}
+.inputs form input[type="submit"]:hover{
+  background-color: white;
+  border: solid 1px crimson;
+  color: crimson;
+}
+.book-bus h3 , h1{
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.inputs form{
+  position: relative;
+}
+.inputs form input:focus+div{
+  display: block;
+  border: solid 2px black;
+  border-top: none;
+}
+.start-points{
+  display: none;
+  width: 200px;
+  background-color: white ;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  border: solid 1px rgb(194, 194, 194);
+  border-top: none;
+  border-radius:0px 0px 4px 4px;
+}
+.end-points{
+  display: none;
+  width: 200px;
+  background-color: white ;
+  position: absolute;
+  top: 32px;
+  left: 215px;
+  border: solid 1px rgb(194, 194, 194);
+  border-top: none;
+  border-radius:0px 0px 4px 4px;
+}
+.start-points span,.end-points span {
+  display: block;
+  padding: 5px;
+  margin: 2px 5px;
+  font-size: 12px;
+  transition: 0.3s
+}
+.start-points span:hover ,.end-points span:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 241);
+  transform: scale(1.01);
+  margin-left: 12px;
+}
+.start-points:hover , .end-points:hover{
+  display: block;
+}
+.bus-list h1{
+  color: rgba(220, 20, 60, 0.989);
+  animation: blink 0.2s infinite linear;
+}
+.bus-table{
+  width: 800px;
+  margin: 20px auto;
+}
+.header{
+  color: white;
+  background-color: crimson;
+  width: 800px;
+  height: 40px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:17px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.body>div{
+  background-color: white;
+  margin: 10px 0px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px black;
+  transition: 0.3s;
+}
+.body>div span{
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.body>div:hover{
+  transform: scale(1.02);
+}
+.body div button{
+  color: white;
+  font-weight: 700;
+  margin: 5px 0px;
+  padding: 5px 15px;
+  background-color: crimson;
+  border: solid 1px crimson;
+  border-radius: 3px;
+}
+
+/* -------------------------------------busdetail -------------------------- */
+.bus-details>div{
+  margin: 20px 100px;
+}
+.bus-details h3{
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 7px;
+  margin: 10px 0px;
+}
+.bus-details h3 span , .bus-details p span {
+  color: crimson;
+}
+.bus-details h2,p{
+  margin: 10px 0px;
+}
+.price , .ticket-btn{
+  display: inline-block;
+  color: white;
+  font-size: 17px;
+  background-color: crimson;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: solid 1px crimson;
+}
+.bus-details input{
+  display: block;
+  font-size: 20px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 4px;
+  margin: 5px;
+  padding-left:10px ;
+  padding-right:10px ;
+}
+.ticket-btn:hover{
+  color: crimson;
+  background-color: white;
+}
+
+
